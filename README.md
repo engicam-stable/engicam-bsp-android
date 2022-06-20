@@ -14,12 +14,12 @@ Download the BSP source:
     # By default, after preceding command finishes execution, current working directory changed to the i.MX Android source code root directory.
     # ${MY_ANDROID} will be refered as the i.MX Android source code root directory in all i.MX Andorid release documentation.
     $: export MY_ANDROID=`pwd`
-    $: repo init -u https://github.com/engicam-stable/engicam-bsp-android.git -b ${android-branches} -m engicam-imx-android-12.0.0_1.0.0.xml
+    $: repo init -u https://github.com/engicam-stable/engicam-bsp-android.git -b imx-android-12 -m engicam-imx-android-12.0.0_1.0.0.xml
     $: repo sync
 
 | android-branches |      modules       |         Carrier         |
 |:----------------:|:------------------:|:-----------------------:|
 |                  |                    |                         |
-|  imx-android-12  |  i.Core MX8M Plus  |  EDIMM 2.0 STARTER KIT  | 
+|  imx-android-12  |  i.Core MX8M Plus  |  EDIMM 2.0 STARTER KIT  |
 |                  |  i.Core MX8M Mini  |                         |
 
